@@ -33,9 +33,6 @@ intout="$8"
     -intervals-out "$intout" \
     -no-update-model-required \
     -mgain 0.85 \
-    -maxuv-l 1.0 \
-    -minuv-l 60 \
-    -maxuv-l 50000 \
     -wstack-oversampling 63 \
     -make-psf \
     -no-reorder \
