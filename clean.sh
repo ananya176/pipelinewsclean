@@ -31,11 +31,9 @@ intout="$8"
     -multiscale-scale-bias 0.6 \
     -pol I \
     -intervals-out "$intout" \
-    -no-update-model-required \
     -mgain 0.85 \
     -wstack-oversampling 63 \
     -make-psf \
-    -no-reorder \
     "$input_ms_file"
 
 echo "Image generation complete."
